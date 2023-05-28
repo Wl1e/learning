@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wlle/files/codes/learning/learning/net/http/httpRequest.cpp
+learning/net/http/httpRequest.h
+-
+learning/net/buffer.h
+-
+learning/base/logging.h
+-
+regex
+-
+
+/home/wlle/files/codes/learning/learning/net/http/httpResponse.cpp
+learning/net/http/httpResponse.h
+-
+learning/net/buffer.h
+-
+learning/base/fileUtil.h
+-
+learning/base/logging.h
+-
+sys/stat.h
+-
+assert.h
+-
+
+/home/wlle/files/codes/learning/learning/net/http/httpServer.cpp
+learning/net/http/httpServer.h
+-
+learning/net/eventLoop.h
+-
+learning/net/http/httpRequest.h
+-
+learning/net/http/httpResponse.h
+-
+learning/base/logging.h
+-
+
